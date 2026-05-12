@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewJournal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Mood -->
+        <TextView
+            android:id="@+id/moodTextView"
+            android:text="😊 Happy"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- 3-dot menu -->
+        <ImageButton
+            android:id="@+id/btnOptions"
+            android:src="@drawable/ic_more_vert"
+            android:background="@android:color/transparent"
+            android:contentDescription="Options"
+            app:tint="#37474F"
+            android:layout_alignParentEnd="true"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/dateTextView"
+            android:text="01 Nov 2025"
+            android:textSize="14sp"
+            android:textColor="#607D8B"
+            android:layout_below="@id/moodTextView"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/dateTextView"
+            android:layout_marginVertical="8dp"
+            android:background="#E0E0E0" />
+
+        <!-- Note -->
+        <TextView
+            android:id="@+id/noteTextView"
+            android:text="Had a really good day!"
+            android:textSize="16sp"
+            android:textColor="#455A64"
+            android:layout_below="@id/dateTextView"
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mentalhealthapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="MindEase"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MindEase">
+
+        <!-- Launcher activity -->
+        <activity android:name=".ui.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Registration screen -->
+        <activity android:name=".ui.RegisterActivity" />
+
+        <!-- Home screen after login -->
+        <activity android:name=".ui.HomeActivity" />
+
+        <!-- Add Journal Entry -->
+        <activity android:name=".ui.AddEntryActivity" />
+
+        <!-- View Recommendations -->
+        <activity android:name=".ui.RecommendationActivity" />
+
+        <!-- View Journal Entries -->
+        <activity android:name=".ui.ViewJournalActivity" />
+
+        <!-- Splash Screen (optional if you use it) -->
+        <activity android:name=".MainActivity" />
+
+        <activity android:name=".ui.AccountActivity" />
+
+        <activity android:name=".ui.InsightsActivity" />
+
+        <activity android:name=".ui.ProfileActivity" />
+
+    </application>
+
+</manifest>

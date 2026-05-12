@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MindEase</string>
+    <string name="title_journal">My Journal Entries</string>
+    <string name="btn_add_entry">Add Entry</string>
+    <string name="btn_save">Save</string>
+    <string name="add_journal_entry">Add Journal Entry</string>
+    <string name="how_are_you_feeling_today">How are you feeling today?</string>
+    <string name="write_about_your_thoughts">Write about your thoughts</string>
+</resources>

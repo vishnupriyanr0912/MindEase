@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="180dp"
+    android:viewportWidth="400"
+    android:viewportHeight="180">
+
+    <!-- Pastel wave background -->
+    <path
+        android:fillColor="#E9F7FF"
+        android:pathData="M0,120 C80,150 160,160 240,140 C300,126 360,130 400,150 L400,180 L0,180 Z"
+        android:alpha="0.55"/>
+
+    <!-- Left leaf cluster -->
+    <path
+        android:fillColor="#C8F2D8"
+        android:pathData="M40,120 C50,105 65,95 80,100 C88,110 82,125 65,135 C52,132 45,128 40,120"
+        android:alpha="0.8"/>
+
+    <!-- Center floral leaf -->
+    <path
+        android:fillColor="#FFE6EC"
+        android:pathData="M180,110 C190,96 210,92 225,103 C228,122 220,136 200,140 C188,136 182,124 180,110"
+        android:alpha="0.8"/>
+
+    <!-- Right lavender leaf -->
+    <path
+        android:fillColor="#E5D7FF"
+        android:pathData="M320,118 C330,105 350,102 365,112 C365,130 355,142 338,140 C330,135 324,128 320,118"
+        android:alpha="0.8"/>
+
+    <!-- Soft stem lines -->
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#9BB1C9"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M65,135 L70,160" />
+
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#9BB1C9"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M200,140 L205,165" />
+
+    <path
+        android:strokeWidth="2"
+        android:strokeColor="#9BB1C9"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M338,140 L344,165" />
+
+</vector>
